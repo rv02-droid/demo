@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello version ..... 0.0.12-SNAPSHOT";
+        return "Hello version ..... 0.0.19";
     }
 
     @GetMapping("/health")
